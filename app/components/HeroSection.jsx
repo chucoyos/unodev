@@ -34,8 +34,41 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8"
         >
-          I build modern web experiences with Next.js and React
+          Full-stack developer specializing in:
         </motion.p>
+
+        <motion.div
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="mb-8"
+        >
+        <div className="flex flex-wrap gap-2">
+            <span className="px-3 py-1 bg-red-100 text-red-800 rounded-full text-sm md:text-base">
+              Ruby on Rails
+            </span>
+            <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm md:text-base">
+              Next.js
+            </span>
+            <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm md:text-base">
+              React
+            </span>
+            <span className="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm md:text-base">
+              PostgreSQL
+            </span>
+          </div>
+        </motion.div>
+
+        <motion.p
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="text-lg md:text-xl text-gray-700 mb-8 max-w-2xl"
+        >
+          I build robust backends with Rails and dynamic frontends with Next.js,
+          delivering complete web solutions from database to UI.
+        </motion.p>
+          
 
         {/* Social Links */}
         <motion.div
