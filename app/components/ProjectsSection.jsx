@@ -19,7 +19,63 @@ const projects = [
     github: "https://github.com/chucoyos/yaco",
     live: "https://yaco.vercel.app/",
     image: "/yacoLanding.png"
-  }
+  },
+  {
+    title: "Shopping Cart",
+    description: "E-commerce shopping cart",
+    tags: ["React", "Material UI", "Vitest", "Cypress"],
+    github: "https://github.com/chucoyos/shopping_cart",
+    live: "https://shopping-cart-gamma-cyan.vercel.app",
+    image: "/shoppingCart.png"
+  },
+  {
+    title: "TODO List",
+    description: "A simple TODO list app",
+    tags: ["JavaScript", "Webpack", "localStorage"],
+    github: "https://github.com/chucoyos/todo_list",
+    live: "https://chucoyos.github.io/todo_list/index.html",
+    image: "/todolist.png"
+  },
+  {
+    title: "CV Creator",
+    description: "Create your CV and download it as a PDF",
+    tags: ["React", "JavaScript", "Vite"],
+    github: "https://github.com/chucoyos/CV-application",
+    live: "https://cv-application-jet.vercel.app/",
+    image: "/cvCreator.png"
+  },
+  {
+    title: "Wheather App",
+    description: "Weather app using Weather API",
+    tags: ["JavaScript", "localStorage", "API"],
+    github: "https://github.com/chucoyos/weather_app",
+    live: "https://chucoyos.github.io/weather_app/index.html",
+    image: "/weatherApp.png"
+  },
+  {
+    title: "Memory Card Game",
+    description: "A simple memory game with Pokemon API",
+    tags: ["React", "Material UI", "MUI Icons"],
+    github: "https://github.com/chucoyos/memory-card",
+    live: "https://odin-memory-card.netlify.app/",
+    image: "/memoryCardGame.png"
+  },
+  {
+    title: "Studio96 LS",
+    description: "Beauty salon appointment system",
+    tags: ["Ruby on Rails", "PostgreSQL", "Devise"],
+    github: "https://github.com/chucoyos/studio96ls",
+    live: "https://github.com/chucoyos/studio96ls",
+    image: "/studio96.png"
+  },
+  {
+    title: "FacturasManzanillo",
+    description: "Landing page for electronic invoicing",
+    tags: ["Bootstrap", "HTML", "CSS"],
+    github: "https://github.com/chucoyos/gh-first",
+    live: "https://facturasmanzanillo.com/",
+    image: "/facturasmanzanillo.png"
+  },
 ];
 
 export default function ProjectsSection() {
