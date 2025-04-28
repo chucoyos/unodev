@@ -21,6 +21,22 @@ const projects = [
     image: "/yacoLanding.png"
   },
   {
+    title: "Studio96 LS",
+    description: "Beauty salon appointment system",
+    tags: ["Ruby on Rails", "PostgreSQL", "Devise"],
+    github: "https://github.com/chucoyos/studio96ls",
+    live: "https://github.com/chucoyos/studio96ls",
+    image: "/studio96.png"
+  },
+  {
+    title: "FacturasManzanillo",
+    description: "Landing page for facturasmanzanillo.com",
+    tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/chucoyos/gh-first",
+    live: "https://facturasmanzanillo.com/",
+    image: "/facturasmanzanillo.png"
+  },
+  {
     title: "Shopping Cart",
     description: "E-commerce shopping cart",
     tags: ["React", "Material UI", "Vitest", "Cypress"],
@@ -60,22 +76,7 @@ const projects = [
     live: "https://odin-memory-card.netlify.app/",
     image: "/memoryCardGame.png"
   },
-  {
-    title: "Studio96 LS",
-    description: "Beauty salon appointment system",
-    tags: ["Ruby on Rails", "PostgreSQL", "Devise"],
-    github: "https://github.com/chucoyos/studio96ls",
-    live: "https://github.com/chucoyos/studio96ls",
-    image: "/studio96.png"
-  },
-  {
-    title: "FacturasManzanillo",
-    description: "Landing page for electronic invoicing",
-    tags: ["Bootstrap", "HTML", "CSS"],
-    github: "https://github.com/chucoyos/gh-first",
-    live: "https://facturasmanzanillo.com/",
-    image: "/facturasmanzanillo.png"
-  },
+  
 ];
 
 export default function ProjectsSection() {

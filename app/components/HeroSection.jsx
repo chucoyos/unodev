@@ -8,6 +8,8 @@ export default function HeroSection() {
   return (
     <section className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24">
       {/* Animated background (optional) */}
+
+      {/* Gradient background */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.05 }}
