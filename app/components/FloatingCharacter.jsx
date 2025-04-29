@@ -30,7 +30,7 @@ export default function FloatingCharacter() {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={controls}
-      className="fixed bottom-8 right-8 z-50 hidden lg:block"
+      className="fixed top-24 left-12 z-50 hidden lg:block"
       style={{
         // Transparent container
         backgroundColor: 'transparent',
