@@ -31,6 +31,12 @@ export default function FloatingCharacter() {
       initial={{ opacity: 0, y: 20 }}
       animate={controls}
       className="fixed bottom-8 right-8 z-50 hidden lg:block"
+      style={{
+        // Transparent container
+        backgroundColor: 'transparent',
+        // No background color affects children
+        isolation: 'isolate'
+      }}
        
     >
       <div className="relative w-32 h-32">
@@ -39,6 +45,12 @@ export default function FloatingCharacter() {
           alt="Friendly character"
           fill
           className="object-contain"
+          style={{
+            // Ensure no background artifacts
+            mixBlendMode: 'normal',
+            // Prevent any div background bleeding
+            pointerEvents: 'none' // Allows clicks through transparent areas
+          }}
           
           priority
         />
