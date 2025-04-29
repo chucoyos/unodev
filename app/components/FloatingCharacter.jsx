@@ -41,7 +41,7 @@ export default function FloatingCharacter() {
     >
       <div className="relative w-32 h-32">
         <Image
-          src="/boy.png"
+          src="/boy5.png"
           alt="Friendly character"
           fill
           className="object-contain"
