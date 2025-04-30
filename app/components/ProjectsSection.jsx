@@ -30,7 +30,7 @@ const projects = [
   },
   {
     title: "FacturasManzanillo",
-    description: "Landing page for facturasmanzanillo.com",
+    description: "Landing page for electronic invoicing",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/chucoyos/gh-first",
     live: "https://facturasmanzanillo.com/",
@@ -61,7 +61,7 @@ const projects = [
     image: "/cvCreator.png"
   },
   {
-    title: "Wheather App",
+    title: "Weather App",
     description: "Weather app using Weather API",
     tags: ["JavaScript", "localStorage", "API"],
     github: "https://github.com/chucoyos/weather_app",
@@ -95,7 +95,7 @@ export default function ProjectsSection() {
             My <span className="text-blue-600 dark:text-blue-400">Projects</span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl">
-            Full-stack applications combining Ruby on Rails with modern frontends
+            Full-stack applications combining Ruby on Rails with modern front-end frameworks like Next.js and React.
           </p>
         </motion.div>
 
