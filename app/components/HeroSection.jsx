@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { FaWhatsapp } from "react-icons/fa6";
 
 export default function HeroSection() {
 
@@ -103,6 +104,15 @@ export default function HeroSection() {
             aria-label="Email"
           >
             <FiMail className="text-gray-800 dark:text-gray-200 text-xl" />
+          </a>
+          <a
+            href="https://wa.me/523141352209?text=Hello%20Uno%20Dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-md hover:shadow-lg transition-shadow"
+            aria-label="Email"
+          >
+            <FaWhatsapp className="text-gray-800 dark:text-gray-200 text-xl" />
           </a>
         </motion.div>
 
