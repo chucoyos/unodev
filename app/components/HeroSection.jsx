@@ -62,14 +62,22 @@ export default function HeroSection() {
           </div>
         </motion.div>
 
+        {/* <motion.p
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="text-lg md:text-xl text-gray-700 mb-8 max-w-2xl"
+        >
+          I build robust backends with Rails and dynamic front-ends with Next.js,
+          delivering complete web solutions from database to UI.
+        </motion.p> */}
         <motion.p
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-lg md:text-xl text-gray-700 mb-8 max-w-2xl"
         >
-          I build robust backends with Rails and dynamic frontends with Next.js,
-          delivering complete web solutions from database to UI.
+          Cooking up Rails backends with Next.js garnishes – full-stack recipes served hot!
         </motion.p>
           
 
